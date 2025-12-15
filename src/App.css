@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: gray;
+  width: 300px;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+}
+.app__add-btn{
+  background-color: green;
+  border:none ;
+  margin: 10px;
+  border-radius: 3px;
+  color: white;
+  width: 50px;
+  height: 30px;
+}
+
+.app__title{
+  color: white;
+}
